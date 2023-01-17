@@ -37,4 +37,4 @@ s2.set_output()
 
 Example 4 (limited reordering, shift everything 5 frames back):
 clip = source[0]*5 + source[:-5]
-clip.set_output()
+clip.set_output() 
