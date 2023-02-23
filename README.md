@@ -13,7 +13,7 @@ In its current form, the tool can support the following:
 
 Hopefully with the contributions from the VapourSynth community, we can continue to develop this tool into ubiquity. 
 
-*Ensure that you have installed the most recent version of VapourSynth. Make sure to update all your plugins and script with "vsrepo.py upgrade-all" after installing.
+Ensure that you have installed the most recent version of VapourSynth. Make sure to update all your plugins and script with "vsrepo.py upgrade-all" after installing.
 
 Clearing the script field completely means fast passthrough which can be useful if you use keyframes to control filtering for different sections. Ignore the radius setting since 10 is a sane default for just about everything. Note that if you don't reference anything in vs namespace you don't need the import line, that's why it's omitted in some examples.
 

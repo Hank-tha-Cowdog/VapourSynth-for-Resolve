@@ -1,7 +1,7 @@
 #define Version '1.0'
-#define VersionExtra '-test1'
+#define VersionExtra ''
 
-#define AppName 'OFX VapourSynth'
+#define AppName 'VapourSynth for Resolve'
 #define AppId 'OFXVapourSynth'
 #define RegistryPath 'SOFTWARE\OFX VapourSynth'
 #define SourceBinaryPath '..\msvc\x64\Release'
@@ -9,7 +9,7 @@
 
 [Setup]
 OutputDir=Compiled
-OutputBaseFilename=OFX VapourSynth {#= Version}{#= VersionExtra}
+OutputBaseFilename=VapourSynth for Resolve {#= Version}{#= VersionExtra}
 Compression=lzma2/max
 SolidCompression=yes
 VersionInfoDescription={#= AppName} {#= Version}{#= VersionExtra} Installer
@@ -18,9 +18,9 @@ AppName={#= AppName} {#= Version}{#= VersionExtra}
 AppVersion={#= Version}{#= VersionExtra}
 AppVerName={#= AppName} {#= Version}{#= VersionExtra}
 AppPublisher=Fredrik Mellbin
-AppPublisherURL=http://www.vapoursynth.com/
-AppSupportURL=http://www.vapoursynth.com/
-AppUpdatesURL=http://www.vapoursynth.com/
+AppPublisherURL=https://github.com/Hank-tha-Cowdog/VapourSynth-for-Resolve
+AppSupportURL=https://github.com/Hank-tha-Cowdog/VapourSynth-for-Resolve
+AppUpdatesURL=https://github.com/Hank-tha-Cowdog/VapourSynth-for-Resolve
 VersionInfoVersion={#= Version}.0.0
 UsePreviousAppDir=yes
 DefaultDirName={autopf}\{#= AppId}
@@ -44,9 +44,7 @@ Name: Full; Description: Full installation
 Source: {#= SourceBinaryPath}\VapourSynthPlugin.dll; DestDir: {commoncf}\OFX\Plugins\VapourSynthPlugin.ofx.bundle\Contents\Win64; DestName: VapourSynthPlugin.ofx; Flags: ignoreversion uninsrestartdelete restartreplace
 
 [Icons]
-Name: {group}\OFX VapourSynth Website; Filename: http://www.vapoursynth.com/
-Name: {group}\Documentation (Local); Filename: {app}\docs\index.html
-Name: {group}\Documentation (Online); Filename: http://www.vapoursynth.com/doc/
+Name: {group}\VapourSynth for Resolve Website; Filename: https://github.com/Hank-tha-Cowdog/VapourSynth-for-Resolve
 
 [Registry]
 Root: HKA; Subkey: {#= RegistryPath}; ValueType: string; ValueName: "Version"; ValueData: {#= Version}; Flags: uninsdeletevalue uninsdeletekeyifempty

@@ -12,7 +12,7 @@
 #include <Windows.h>
 
 constexpr char kPluginName[] = "VapourSynth Script";
-constexpr char kPluginGrouping[] = "OFX VapourSynth";
+constexpr char kPluginGrouping[] = "VapourSynth OFX";
 constexpr char kPluginDescription[] = "VapourSynth inline script evaluation";
 constexpr char kPluginIdentifier[] = "com.vapoursynth.resolveofx";
 constexpr unsigned int kPluginVersionMajor = 1;
